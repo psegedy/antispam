@@ -20,8 +20,8 @@ email2.eml - SPAM
 email3.eml - SPAM 
 email4.eml - FAIL
 ```
-OK - it's HAM
-SPAM - it's SPAM
-FAIL - failed to load or classify email
+* OK - it's HAM
+* SPAM - it's SPAM
+* FAIL - failed to load or classify email
 
 Note: Once classifier is trained, you can comment call to `train_data()` method. It is project for BIS class @[FIT VUT](http://www.fit.vutbr.cz) and it was submitted with trained classifier.
