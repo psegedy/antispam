@@ -3,6 +3,11 @@ Spam filter demonstration using machine learning
 
 Classify emails in .eml format if it is SPAM or HAM using [scikit-learn](http://scikit-learn.org) python module. Before first run it is neccessary to have training dataset for the classifier. Simply change `DATASET` list with path to training data and values `True` for SPAM and `False` for HAM. For this demonstration I'm using some emails from this pre-classified dataset http://www2.aueb.gr/users/ion/data/enron-spam/
 
+Dependecies
+```
+scikit-learn html2text scipy pandas numpy
+```
+
 Example of usage
 ```bash
 ./antispam.py email.eml email2.eml email3.eml email4.eml
